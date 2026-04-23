@@ -1,0 +1,14 @@
+{
+  "version": "5.6.0",
+  "source_url": "https://raw.githubusercontent.com/Wolffox1982/Neuro-Files-Updates/main/version.json",
+  "release_page": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/tag/v5.6.0",
+  "download_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v5.6.0/NeuroFiles-v5.6.0-win64.zip",
+  "sha256": "9f0bc385025df6efba1a0f5f916be3e0b9c3dd7f539f0f042797e8961a3f4385",
+  "release_notes": [
+    "Nova linha de release com mudancas amplas de sistema e layout.",
+    "Monitoramento reorganizado para leitura mais limpa e melhor uso do espaco.",
+    "Fluxo de release alinhado entre app principal, pacote .zip e instalador oficial.",
+    "Alerta de atualizacao de inicializacao mais completo e informativo."
+  ],
+  "bootstrap_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v5.6.0/NeuroFiles_Setup_v5.6.0.exe"
+}
