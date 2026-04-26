@@ -1,14 +1,28 @@
 {
-  "version": "5.6.0",
-  "source_url": "https://raw.githubusercontent.com/Wolffox1982/Neuro-Files-Updates/main/version.json",
-  "release_page": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/tag/v5.6.0",
-  "download_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v5.6.0/NeuroFiles-v5.6.0-win64.zip",
-  "sha256": "9f0bc385025df6efba1a0f5f916be3e0b9c3dd7f539f0f042797e8961a3f4385",
-  "release_notes": [
-    "Nova linha de release com mudancas amplas de sistema e layout.",
-    "Monitoramento reorganizado para leitura mais limpa e melhor uso do espaco.",
-    "Fluxo de release alinhado entre app principal, pacote .zip e instalador oficial.",
-    "Alerta de atualizacao de inicializacao mais completo e informativo."
-  ],
-  "bootstrap_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v5.6.0/NeuroFiles_Setup_v5.6.0.exe"
+    "version":  "6.0.0",
+    "source_url":  "https://raw.githubusercontent.com/Wolffox1982/Neuro-Files-Updates/main/version.json",
+    "release_page":  "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/tag/v6.0.0",
+    "download_url":  "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v6.0.0/NeuroFiles-v6.0.0-win64.zip",
+    "sha256":  "13f121f2514ec5dbca86a5b9ab06d345c476d5cd3239b559b37eb8e4166bb901",
+    "installer_url":  "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v6.0.0/NeuroFiles_Setup_v6.0.0.exe",
+    "installer_sha256":  "2bedbd32f7b583c0618cd44af01c7c78b6757d50767505aa0bdf4de7a15778d2",
+    "release_notes":  [
+                          "Build Core standalone com IA/ML completa via pacote opcional.",
+                          "Fluxo de atualizacao baseado em manifesto version.json.",
+                          "Downloader leve alinhado ao pacote oficial em .zip."
+                      ],
+    "runtime_packs":  {
+                          "ml":  {
+                                     "kind":  "ml",
+                                     "version":  "6.0.0",
+                                     "asset_name":  "NeuroFiles_ML_Runtime_v6.0.0_win64.zip",
+                                     "download_url":  "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v6.0.0/NeuroFiles_ML_Runtime_v6.0.0_win64.zip",
+                                     "sha256":  "092536360542c5953e933ca3219a613ba79643e76aec305adcead28522a92994",
+                                     "size_bytes":  60083811,
+                                     "required":  false,
+                                     "package_layout":  "wheels",
+                                     "python_tag":  "cp311",
+                                     "description":  "Pacote opcional de IA/ML com numpy, scipy e scikit-learn."
+                                 }
+                      }
 }
