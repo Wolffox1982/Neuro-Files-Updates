@@ -1,31 +1,34 @@
 {
-    "version":  "6.0.1",
-    "source_url":  "https://raw.githubusercontent.com/Wolffox1982/Neuro-Files-Updates/main/version.json",
-    "release_page":  "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/tag/v6.0.1",
-    "download_url":  "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v6.0.1/NeuroFiles-v6.0.1-win64.zip",
-    "sha256":  "a1c367d69ad2666738574f765f3f64dc83b425497b6b3f0d9237083addcca247",
-    "installer_url":  "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v6.0.1/NeuroFiles_Setup_v6.0.1.exe",
-    "installer_sha256":  "098bcd9d9057c334974db4c969a3dbbd458740ea087f73509159f16117662518",
-    "release_notes":  [
-                          "Instalacao limpa inicia na versao basica.",
-                          "Versao basica libera limpar, organizar, desfazer, scan e quarentena.",
-                          "Trial libera as funcoes premium de avaliacao, exceto a aba Ameacas.",
-                          "Pro libera todas as funcoes, incluindo Ameacas.",
-                          "Licenca local antiga sem plano explicito deixa de ativar Pro automaticamente.",
-                          "Identidade publica ajustada para Neuro Files Technologies, com dados do responsavel legal em documento separado."
-                      ],
-    "runtime_packs":  {
-                          "ml":  {
-                                     "kind":  "ml",
-                                     "version":  "6.0.1",
-                                     "asset_name":  "NeuroFiles_ML_Runtime_v6.0.1_win64.zip",
-                                     "download_url":  "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v6.0.1/NeuroFiles_ML_Runtime_v6.0.1_win64.zip",
-                                     "sha256":  "a390abf089d487db06c7fadb1fc933bbdbcfd8165e4020223ea048375355ef88",
-                                     "size_bytes":  60083810,
-                                     "required":  false,
-                                     "package_layout":  "wheels",
-                                     "python_tag":  "cp311",
-                                     "description":  "Pacote opcional de IA/ML com numpy, scipy e scikit-learn."
-                                 }
-                      }
+    "version": "6.0.3",
+    "source_url": "https://raw.githubusercontent.com/Wolffox1982/Neuro-Files-Updates/main/version.json",
+    "release_page": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/tag/v6.0.3",
+    "download_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v6.0.3/NeuroFiles-v6.0.3-win64.zip",
+    "sha256": "23b6c78ee353d10b1ae69c4e9871484e7d544774755ba17e947d9bf6ea07fd9c",
+    "installer_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v6.0.3/NeuroFiles_Setup_v6.0.3.exe",
+    "installer_sha256": "cf5b12e05966199dc2760135bcb43447ac66e79f64f9e3d5cee57482cee5d1d6",
+    "release_notes": [
+        "Build Core standalone com IA/ML completa via pacote opcional.",
+        "Fluxo de atualizacao baseado em manifesto version.json.",
+        "Downloader leve alinhado ao pacote oficial em .zip."
+    ],
+    "runtime_packs": {
+        "ml": {
+            "kind": "ml",
+            "version": "6.0.3",
+            "asset_name": "NeuroFiles_ML_Runtime_v6.0.3_win64.zip",
+            "download_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v6.0.3/NeuroFiles_ML_Runtime_v6.0.3_win64.zip",
+            "sha256": "",
+            "size_bytes": 0,
+            "required": false,
+            "package_layout": "wheels",
+            "python_tag": "cp311",
+            "description": "Pacote opcional de IA/ML com numpy, scipy e scikit-learn."
+        }
+    },
+    "manifest_signature": {
+        "schema": 1,
+        "algorithm": "RSA-PSS-SHA256",
+        "key": "update_public.pem",
+        "signature": "HZWhrrbkjXf_3vVzDf4w9Y1NOcgIroAfrbARR5pLBlZeZWJrKf_Ms6cJQER44lfJDPPdUXbYcaF1qyisVgs53T5LADoK0RAdpt5-uZefu5IyM-xek5PSTxDipAR9c2Bnuhb_IxeTsRpm0l5ti1-iIN3g77288-_MlyEmDiH1m3NC5-oNw8xOapGcD0nUQZtpsMnOI6OSUHsqWzcPioknz3cuJaG0BqkEHkhl_DxDsxAwzIdOXgRjioQxm1NrF1aC--5gMAxBbNO-MzIk77oZUkooTOzqaLuIjGDArKYWwwhS4KIxDJvy1_uP7Pr9KiXiTk7rIAfDHuJtC0s1MEXULWYNmrOAylvinCEHLxm2YZNgFkRjAthgAehJZSM2NKO8v-B9aqjZABqUmt-xLksfmgRS_dQxqh5rLUXVFLbf94b96W6HEHAVkfOeoZB3-pDbJ0hfCZrIwHOHFr6tiLWqOKWSZ981fElaC4l1SBICCWpsJwED0_Ps6au7WP_ynY_z"
+    }
 }
