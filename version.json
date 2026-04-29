@@ -1,11 +1,11 @@
 {
-    "version": "6.0.3",
+    "version": "6.0.4",
     "source_url": "https://raw.githubusercontent.com/Wolffox1982/Neuro-Files-Updates/main/version.json",
-    "release_page": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/tag/v6.0.3",
-    "download_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v6.0.3/NeuroFiles-v6.0.3-win64.zip",
-    "sha256": "23b6c78ee353d10b1ae69c4e9871484e7d544774755ba17e947d9bf6ea07fd9c",
-    "installer_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v6.0.3/NeuroFiles_Setup_v6.0.3.exe",
-    "installer_sha256": "cf5b12e05966199dc2760135bcb43447ac66e79f64f9e3d5cee57482cee5d1d6",
+    "release_page": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/tag/v6.0.4",
+    "download_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v6.0.4/NeuroFiles-v6.0.4-win64.zip",
+    "sha256": "f733ca692d57e255f87da4b867d9055ad38b9eaa5d0760555ca4552ea9742306",
+    "installer_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v6.0.4/NeuroFiles_Setup_v6.0.4.exe",
+    "installer_sha256": "4b00d43a4b3c725f2d66eb556c033cdbc2430e11bc1e2b92e9187c666805332f",
     "release_notes": [
         "Build Core standalone com IA/ML completa via pacote opcional.",
         "Fluxo de atualizacao baseado em manifesto version.json.",
@@ -14,11 +14,11 @@
     "runtime_packs": {
         "ml": {
             "kind": "ml",
-            "version": "6.0.3",
-            "asset_name": "NeuroFiles_ML_Runtime_v6.0.3_win64.zip",
-            "download_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v6.0.3/NeuroFiles_ML_Runtime_v6.0.3_win64.zip",
-            "sha256": "",
-            "size_bytes": 0,
+            "version": "6.0.4",
+            "asset_name": "NeuroFiles_ML_Runtime_v6.0.4_win64.zip",
+            "download_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v6.0.4/NeuroFiles_ML_Runtime_v6.0.4_win64.zip",
+            "sha256": "3d3e37d917ba7701071db0c5cb7948795c714bc5cd1ca3f6f2f5470b1de417ad",
+            "size_bytes": 60083811,
             "required": false,
             "package_layout": "wheels",
             "python_tag": "cp311",
@@ -29,6 +29,6 @@
         "schema": 1,
         "algorithm": "RSA-PSS-SHA256",
         "key": "update_public.pem",
-        "signature": "HZWhrrbkjXf_3vVzDf4w9Y1NOcgIroAfrbARR5pLBlZeZWJrKf_Ms6cJQER44lfJDPPdUXbYcaF1qyisVgs53T5LADoK0RAdpt5-uZefu5IyM-xek5PSTxDipAR9c2Bnuhb_IxeTsRpm0l5ti1-iIN3g77288-_MlyEmDiH1m3NC5-oNw8xOapGcD0nUQZtpsMnOI6OSUHsqWzcPioknz3cuJaG0BqkEHkhl_DxDsxAwzIdOXgRjioQxm1NrF1aC--5gMAxBbNO-MzIk77oZUkooTOzqaLuIjGDArKYWwwhS4KIxDJvy1_uP7Pr9KiXiTk7rIAfDHuJtC0s1MEXULWYNmrOAylvinCEHLxm2YZNgFkRjAthgAehJZSM2NKO8v-B9aqjZABqUmt-xLksfmgRS_dQxqh5rLUXVFLbf94b96W6HEHAVkfOeoZB3-pDbJ0hfCZrIwHOHFr6tiLWqOKWSZ981fElaC4l1SBICCWpsJwED0_Ps6au7WP_ynY_z"
+        "signature": "gPHD3-lCTtjKnUgfhtySAQygah0sCTrZzjRm46Oayfx7BBOh-_8NCA_dTag-Y6weXD2Fyy2wzmc0XnO-pxqjF03TE1cJyqkC2nEBNHdHnNPaxy1Os_JY1Acjolau6IzcPqUe6hYLKGOxffmLOt87m4HwLUDQ_qDVZfWu4XDEx7ykTZpyci0zabIdBty3uWwQ5L-FY8KN7WJN9X9NeBR7re4zY37X5mFUAScMBuv9WsTwllh07en12HkU2qbn25283WjPKEaHgoNa03nVUfimlDp2NbmT1xNLwyXj5gUzyJfvmtPF9-2XUX98tPSnBetXW45AW2D40DUAtvK-Ch-477EoOoWnwdqOdvGV_faS4ryITrzg4iFbun_ag4ebN0NlDl-ukuZ1XmEl0jmTZE0Mb7caTLXBnq98pmE2eyLLZ5Q60Aq9s8U2_gfcJNf3UCav8gUIN94j8DAuQeZ4v5hSCqjnAqEKexTp5Jt8Doaw5kT1nrcVemlvSPVoG9S_VelQ"
     }
 }
