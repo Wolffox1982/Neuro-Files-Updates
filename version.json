@@ -1,15 +1,15 @@
 {
-    "version": "6.0.10",
+    "version": "6.2.0",
     "source_url": "https://raw.githubusercontent.com/Wolffox1982/Neuro-Files-Updates/main/version.json",
-    "release_page": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/tag/v6.0.10",
-    "download_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v6.0.10/NeuroFiles-v6.0.10-win64.zip",
-    "sha256": "55d3ac17c0afbcbabb1bec86024355dee4a82b87104ed0230ae213447387b5e6",
-    "installer_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v6.0.10/NeuroFiles_Setup_v6.0.10.exe",
-    "installer_sha256": "76e4349761775f4538902418bf1fc31393641a7676c275b7f95ce5d5214664a7",
+    "release_page": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/tag/v6.2.0",
+    "download_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v6.2.0/NeuroFiles-v6.2.0-win64.zip",
+    "sha256": "83f4e00a83524ee49e7ee14feb3b4bb4f067e593a24ec8f3d9481f8143d1ebe8",
+    "installer_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v6.2.0/NeuroFiles_Setup_v6.2.0.exe",
+    "installer_sha256": "156cd82145d4902f943c87accb690c23db1d2aba58cf0236e717e49ea541637d",
     "release_notes": [
-        "Build Core standalone com IA/ML completa via pacote opcional.",
-        "Fluxo de atualizacao baseado em manifesto version.json.",
-        "Downloader leve alinhado ao pacote oficial em .zip."
+        "Promessa do produto simplificada para usuario final.",
+        "Dashboard reforca saude do PC, confianca e ultimo resultado.",
+        "Documentacao curta explica o NeuroFiles em 30 segundos."
     ],
     "runtime_packs": {
         "ml": {
@@ -25,11 +25,11 @@
             "description": "Pacote opcional de IA/ML com numpy, scipy e scikit-learn."
         }
     },
-    "bootstrap_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v6.0.10/NeuroFiles_Downloader.exe",
+    "bootstrap_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v6.2.0/NeuroFiles_Downloader.exe",
     "manifest_signature": {
         "schema": 1,
         "algorithm": "RSA-PSS-SHA256",
         "key": "update_public.pem",
-        "signature": "OJqjkkKBuNzkdT3etHRuJgP0FCK_Y6GEk-cBCrrOn1i83j26NoOL_JqhOUfS638I4W55W0J79bWgfH7WX7lJWVMFy3d7MJPKqxDAYEaqV3SXkv3niwuGCZAt-sO7YTqxVbLyGxBklTxsOoeheJGIqqRSR2dlpuCFtvE4CEYd9_diJSvkj0y76L3NG-Rma9ls9HcUNRQoxQgPJXcLV-U2JWaopIsEmdnKeikUeosyCKfbWun7udly1Bcgz9Blf9jz2-5VLBAu2wywO7cUe4GmRhepclTpk03ctl6JjuSNTZQztg3OsD0KC0sVlBDsy0LF2JL-fTl-SelzmvPx6vhk_Zjwq8vYNDv4UeyvqSg9qU5Yn9jVGeiCDtNitjm6cyJRx-S18eFLs9q0xqOu6ZFqlOEVAcT1hBwuAjKamG_icf-z9iYfYiH3DpAx1posmeqbzxMfh9cUeMu-f8xHSOyRH4onxIKTRvyNKAwaoqi2jOhiX3anBStWrMx7FxXv4OHL"
+        "signature": "oTnsb2p93-2ocT6lXC44li2tkLvUMPyDUNPROgKgjzCuqOI0ZnFfRNswC_zUJls_T8jJmcVV85Wl-6BE62WfDbVcF_6KZxv7ZGazcAbCKX683AWRMcSM8SwnqUZzsTf4xy_48jkHzJ6zUq3uiJpeE_qCsc7kYUvUX9MjcnK6x6L9MMCgB-2yLKkdoa5g_sMIlkrvUXX80qpJfo476uA7D-yqZWEBl1Ydg6ziPnV3cPzTGX1lo8jtik6u154kPihVFO6KPCLZ3-dw-_DKqY4nmtvMbbjm24rlhYv3779Jx1PemwrWgG3J9SrGVpRXyE7-3FkH2zCcA9aiHMIWv6oVxUB3_r-8cV6RSsvswEGtQbAbi-jRVnk_deuzt5wZinFTT8Ni7k8KegMI7RCRwulJhjsqsnt5spTpMG9aoCY_9uc7CXznRp6ggKWaMAlv20WYU2VcNPhY0VH0QuhK2bFRGC0cFxIFCn827aDuPIGMTLCmwKy9GdRQfM9Bq96oP-Rd"
     }
 }
