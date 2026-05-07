@@ -16,6 +16,6 @@
         "schema": 1,
         "algorithm": "RSA-PSS-SHA256",
         "key": "update_public.pem",
-        "signature": "P-GCt_7HexVh0Zx77OqUx-gJEgfGuRhk-HszSP_s9v3_c6YEeO3f2ehfb-YH7NZWGlACWYPiJhSGxUfnG9p6-hhgPoJSnWb1d89k-4anB1TovirfEdAbdYvP5Zz5NJMzEULeRM7Y1_p0dkKIgS4IV8Qw_cJWdfiaa2yg_SUFXlSXXg2OkYtKJl7ncKm-u1CjsufGbk4f-UbUFvZ8uFkTIpheRFg8oRxD0_xeFoBvCmf0RlTa1RSSVDrCkV7q-MJAzvAq8qKL8Alkxe_tBEwK0lMpuYvb5tiNG6sJKB2uOtAaa4nOEuPoKd1V8ZzoUbiaaRUn40PgbrQG8c51lvihLiLKASgE3_OVzRn4pSEpg4HHmY3AXf-PmFs2tjTMEYZP4DXf60PNUtAc3LiDgvEWKKZTNAZvcHlcYZ0swklQ9yKDMO5C5LjX9RanCyCzEac4Ys9VMYxi6UpT5K5yTK-zrEboXlMpPCt-u1oqUK59z4ThIL9lP-QQ_ZUp6X9uYITeM"
+        "signature": "JgB0N4KyPY57_KxFpjiSfH1nORpugLXhL-sqdOiY5LIP07My5isb0Inmp8dD-qVs7oVNOGjrNe9CF5f86R72wQDRInftbG8GRBaR07X_9jrb5hGB_mD30Q0pDA6TAZDJSEbZYzv8X1XFA7c6hq4DVINaPTRX31H94MCzwEln89dXv7nogsvvxK59UlMHtZMrpmKH1hSz8fjd5aAGFokE_MWVsYvkXRZEWVsoKJXsufOu9i3MEFSr8KXraSTQ8W00F-lppTFHfUaPp1V-mFuIBRbZj9mrgzJ0uNbsgJ1mmRkHIaoGG6haooklA6of5lzdF7xF-41VwzunlyvAF0X0DW6-nrgLNIwQE752xoPsXojxdn8I5plfYb2v2qNHIo_08zDjFL7bJiuje8eanB-nQ8K-DL2szCVoDqkTM4US6c_San6YQIc2reew7K4e9-L6bphIyswlIs-asIXdyhGCE9u8185NvO1xhz8N8GqmZ8-5azBBPXODr08kTFvzv1oO"
     }
 }
