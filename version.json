@@ -1,12 +1,12 @@
 {
-    "version": "6.3.6",
+    "version": "7.0.0",
     "source_url": "https://raw.githubusercontent.com/Wolffox1982/Neuro-Files-Updates/main/version.json",
-    "release_page": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/tag/v6.3.6",
-    "download_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v6.3.6/NeuroFiles-v6.3.6-win64.zip",
-    "sha256": "f9167c4a248b22f6911ec0a93b51fda07d762daaeb88e9b7ed67ea84c42096b9",
-    "installer_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v6.3.6/NeuroFiles_Setup_v6.3.6.exe",
-    "installer_sha256": "5001d6a95c85e5772e57f5dc6a50a48419f66d262043b2515bf169a9f0322cd3",
-    "bootstrap_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v6.3.6/NeuroFiles_Downloader.exe",
+    "release_page": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/tag/v7.0.0",
+    "download_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v7.0.0/NeuroFiles-v7.0.0-win64.zip",
+    "sha256": "2013fdb70180f13ff6e0a8bf5341b39672317dc1474178e027c2bf3b40c10438",
+    "installer_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v7.0.0/NeuroFiles_Setup_v7.0.0.exe",
+    "installer_sha256": "3f92ebfd403f456d145e3c24a851217cacb021bf48bc4d18d8004f54e614f281",
+    "bootstrap_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v7.0.0/NeuroFiles_Downloader.exe",
     "release_notes": [
         "Build Core standalone com IA/ML completa via pacote opcional.",
         "Fluxo de atualizacao baseado em manifesto version.json.",
@@ -16,6 +16,6 @@
         "schema": 1,
         "algorithm": "RSA-PSS-SHA256",
         "key": "update_public.pem",
-        "signature": "JgB0N4KyPY57_KxFpjiSfH1nORpugLXhL-sqdOiY5LIP07My5isb0Inmp8dD-qVs7oVNOGjrNe9CF5f86R72wQDRInftbG8GRBaR07X_9jrb5hGB_mD30Q0pDA6TAZDJSEbZYzv8X1XFA7c6hq4DVINaPTRX31H94MCzwEln89dXv7nogsvvxK59UlMHtZMrpmKH1hSz8fjd5aAGFokE_MWVsYvkXRZEWVsoKJXsufOu9i3MEFSr8KXraSTQ8W00F-lppTFHfUaPp1V-mFuIBRbZj9mrgzJ0uNbsgJ1mmRkHIaoGG6haooklA6of5lzdF7xF-41VwzunlyvAF0X0DW6-nrgLNIwQE752xoPsXojxdn8I5plfYb2v2qNHIo_08zDjFL7bJiuje8eanB-nQ8K-DL2szCVoDqkTM4US6c_San6YQIc2reew7K4e9-L6bphIyswlIs-asIXdyhGCE9u8185NvO1xhz8N8GqmZ8-5azBBPXODr08kTFvzv1oO"
+        "signature": "MkRvqrV3oxsnL7DpcevNQigXgDC9zOKC2YRsHEE8cEtEZF8hgLd8g8HRhZ3Ezp3tMDgN1R5fZJA3B4jDn9fOVbWereBvbR8IzplzmUjZV13q2cmENzRQsbSU4hitdzJcMZWzZBS1omCvMEvverO7g7wJp_terXA5jrI_ef-8V6tnUL13VvmtV3Gc8s4U0kjglO0f7kuNFAoR7EjLpYT-ilL4Qg9xp2UKYN2_XABDkp91ruMvu-EsMP7f9hUFzEmZrnVXGUxM89RUHmFnxf2k-VUK45k2ykfuxmuzfGwxlyaHayu8xMQ_XrvDAvnViKlQRNyxPKqHVoqCtFWPWr6mYy_qP9t24Ja1enGet-0tgMFJWGpjab9T9-2Bc7ZLgEOPYmR-4GBd8mOEjoaK0t7i7Re0pOiPVv53eo-PAFqPYHhaPcVtOlof7IGYWr9fsBojoADyN7I20FLTy-NsUrBuvGIYSqPQSjlZtvrRkTUErvavryzCBv0Arj-cAfZlXOgB"
     }
 }
