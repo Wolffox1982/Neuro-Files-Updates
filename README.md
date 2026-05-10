@@ -6,6 +6,7 @@ Este repositorio publica:
 - `version.json`
 - pacotes oficiais `.zip`
 - instaladores oficiais `.exe`
+- component packs oficiais `.zip`
 - `threat_intel_version.json`
 - `threat_intel_package.json`
 
