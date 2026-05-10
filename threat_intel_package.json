@@ -1,0 +1,72 @@
+{
+  "hashes": [
+    {
+      "sha256": "275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f",
+      "threat_name": "EICAR.Test.File",
+      "family": "test-artifact",
+      "severity": 85,
+      "source": "sentinela-local-release",
+      "first_seen": "2026-05-09",
+      "last_seen": "2026-05-09",
+      "confidence": 95
+    }
+  ],
+  "urls": [
+    {
+      "url": "https://malicious.example/payload",
+      "domain": "malicious.example",
+      "severity": 84,
+      "source": "sentinela-local-release",
+      "last_seen": "2026-05-09"
+    },
+    {
+      "url": "https://phish.example/signin",
+      "domain": "phish.example",
+      "severity": 79,
+      "source": "sentinela-local-release",
+      "last_seen": "2026-05-09"
+    }
+  ],
+  "trusted_publishers": [
+    {
+      "publisher_name": "Neuro Files Technologies",
+      "certificate_thumbprint": "",
+      "trust_level": 100
+    },
+    {
+      "publisher_name": "Microsoft Corporation",
+      "certificate_thumbprint": "",
+      "trust_level": 90
+    }
+  ],
+  "yara_rules": [
+    {
+      "rule_name": "NF_DisguisedDoubleExtension",
+      "category": "execution_disguise",
+      "severity": 72,
+      "version": "1.0.0",
+      "enabled": true
+    },
+    {
+      "rule_name": "NF_LOLBinObfuscatedLauncher",
+      "category": "lolbin_abuse",
+      "severity": 68,
+      "version": "1.0.0",
+      "enabled": true
+    },
+    {
+      "rule_name": "NF_DownloadExecuteScriptChain",
+      "category": "lolbin_abuse",
+      "severity": 74,
+      "version": "1.1.0",
+      "enabled": true
+    },
+    {
+      "rule_name": "NF_SuspiciousScriptDropperPath",
+      "category": "execution_disguise",
+      "severity": 66,
+      "version": "1.0.0",
+      "enabled": true
+    }
+  ]
+}

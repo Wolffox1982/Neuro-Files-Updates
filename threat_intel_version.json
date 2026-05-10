@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "intel_version": "2026.05.09.3",
+  "updated_at": "2026-05-09T19:15:00-03:00",
+  "channel": "stable",
+  "source": "remote-signed",
+  "notes": [
+    "Feed remoto oficial da base de threat intel da Sentinela.",
+    "Fallback local continua ativo quando o remoto falha."
+  ],
+  "package": {
+    "package_id": "sentinela-intel-2026-05-09.3",
+    "rules_file": "threat_intel_rules.yar",
+    "db_file": "threat_db.sqlite",
+    "signature_status": "signed-remote-manifest",
+    "merge_strategy": "merge",
+    "package_sha256": "c676d617d90b6da9a5143acb6ac344feea5fd02ef3a0c5b13ad20d548c4f84ba",
+    "data_file": "threat_intel_package.json"
+  },
+  "manifest_signature": {
+    "schema": 1,
+    "algorithm": "RSA-PSS-SHA256",
+    "key": "update_public.pem",
+    "signature": "AoPstKgE0rz-cA2PQ8HoJ8ULEhBTpme-MxFm2aFeNXxaGuWesDlkN0LCuKh4fh5OC22kyW7Da-Yjw9aByp5ECNOiM0MnA55-luSUQmoVvsSgJQ1Iwh3Rxek-7L9DE24XjAb8VfWrdh4KyfvPXiliIH5gn4YLJOuH19mvIUt7gZ-s0l_p82fsJv76mNQCbqnjp080qskMXo1CZL_XPiiTLG6q0dfd71c_cHuKi5C75bjUccYJrgxWy-Z55VAYXfuo71-FE6cx6SEHUAc6Hsp1a7v9IpUbCgfFmwLRydBkyLo5LJPosZ3_wFhXisysv0x8tS49JGLKB7I30P35ZHeYdQx-G9sxDWiNdMqsBKIwhgN7nvBzwD51xlGrPZcQz7VqdXzTgD3I6W1lCC2JUPeeB1E-fCJiSo3BkTvOG2wXJtQ-64oyd479H6EpwpiWShw0tZ2JPSu-MVUhFltNsUKBU0sS6Ppy-VuadrAjgtd89FB-_tz6ncwaY6f46h6L5GC7"
+  }
+}
