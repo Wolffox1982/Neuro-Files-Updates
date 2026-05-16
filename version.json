@@ -1,72 +1,72 @@
 {
-  "version": "8.0.0",
-  "official_version": "8.0.0",
-  "display_version": "8.0.0",
-  "release_track": "official",
-  "codename": "Aurora",
-  "source_url": "https://raw.githubusercontent.com/Wolffox1982/Neuro-Files-Updates/main/version.json",
-  "release_page": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/tag/v8.0.0",
-  "download_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v8.0.0/NeuroFiles-v8.0.0-win64.zip",
-  "sha256": "b44a3aadf637139209410203329aba756e516b4fe9091b5e58514ab84a3360d3",
-  "release_notes": [
-    "indice local persistente com atualizacao incremental",
-    "helper Rust e trilha pronta para USN Journal",
-    "release endurecida com downloader assinado e preparacao Store"
-  ],
-  "bootstrap_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v8.0.0/NeuroFiles_Downloader.exe",
-  "installer_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v8.0.0/NeuroFiles_Setup_v8.0.0.exe",
-  "installer_sha256": "b6a175153d63a3c29d16388b837bee9c0f7fc7a1dc293b84aff7148f4ae6a76c",
-  "runtime_packs": {
-    "ml": {
-      "kind": "ml",
-      "version": "8.0.0",
-      "asset_name": "NeuroFiles_ML_Runtime_v8.0.0_win64.zip",
-      "download_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v8.0.0/NeuroFiles_ML_Runtime_v8.0.0_win64.zip",
-      "sha256": "3f0eec60e467ad43eb7deb624a470ccbf38d8a1255291f1bc2b85da04bc3a3e0",
-      "size_bytes": 60083810,
-      "required": false,
-      "package_layout": "wheels",
-      "python_tag": "cp311",
-      "description": "Pacote opcional de IA/ML com numpy, scipy e scikit-learn."
+    "version": "8.0.0",
+    "official_version": "8.0.0",
+    "display_version": "8.0.0",
+    "release_track": "official",
+    "codename": "Aurora",
+    "source_url": "https://raw.githubusercontent.com/Wolffox1982/Neuro-Files-Updates/main/version.json",
+    "release_page": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/tag/v8.0.0",
+    "download_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v8.0.0/NeuroFiles-v8.0.0-win64.zip",
+    "sha256": "2ef31cd94ffebfc753b94b957498d669e7323b762ae9e3e5a15778fe3f2a0f84",
+    "release_notes": [
+        "Build Core standalone com IA/ML completa via pacote opcional.",
+        "Fluxo de atualizacao baseado em manifesto version.json.",
+        "Downloader leve alinhado ao pacote oficial em .zip."
+    ],
+    "bootstrap_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v8.0.0/NeuroFiles_Downloader.exe",
+    "installer_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v8.0.0/NeuroFiles_Setup_v8.0.0.exe",
+    "installer_sha256": "e06fec39e27b707f61e6d15b478c48bc6511cfd673e48e538dafcba786b0e730",
+    "runtime_packs": {
+        "ml": {
+            "kind": "ml",
+            "version": "8.0.0",
+            "asset_name": "NeuroFiles_ML_Runtime_v8.0.0_win64.zip",
+            "download_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v8.0.0/NeuroFiles_ML_Runtime_v8.0.0_win64.zip",
+            "sha256": "3f0eec60e467ad43eb7deb624a470ccbf38d8a1255291f1bc2b85da04bc3a3e0",
+            "size_bytes": 60083810,
+            "required": false,
+            "package_layout": "wheels",
+            "python_tag": "cp311",
+            "description": "Pacote opcional de IA/ML com numpy, scipy e scikit-learn."
+        },
+        "sentinel": {
+            "kind": "sentinel",
+            "version": "8.0.0",
+            "asset_name": "NeuroFiles_Sentinel_v8.0.0_win64.zip",
+            "download_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v8.0.0/NeuroFiles_Sentinel_v8.0.0_win64.zip",
+            "sha256": "a15f66973e3904df694ad94e715149f7a7ad645d1858ee602f38b36ffa6398db",
+            "size_bytes": 488243,
+            "required": false,
+            "package_layout": "files",
+            "description": "Pacote opcional do motor nativo da Sentinela."
+        },
+        "engine": {
+            "kind": "engine",
+            "version": "8.0.0",
+            "asset_name": "NeuroFiles_Engine_v8.0.0_win64.zip",
+            "download_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v8.0.0/NeuroFiles_Engine_v8.0.0_win64.zip",
+            "sha256": "d74713a64f67f60e8b10253e53716e5e7bba55574cae035f2f4591c21f034d80",
+            "size_bytes": 389377,
+            "required": false,
+            "package_layout": "files",
+            "description": "Pacote opcional do threat engine nativo."
+        },
+        "helper": {
+            "kind": "helper",
+            "version": "8.0.0",
+            "asset_name": "NeuroFiles_Helper_v8.0.0_win64.zip",
+            "download_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v8.0.0/NeuroFiles_Helper_v8.0.0_win64.zip",
+            "sha256": "76035b42eb866800f5dd023bced80834c3179ad08a55d18b25f4ed4d405170e1",
+            "size_bytes": 16548364,
+            "required": false,
+            "package_layout": "files",
+            "description": "Pacote opcional do helper elevado da Sentinela."
+        }
     },
-    "sentinel": {
-      "kind": "sentinel",
-      "version": "8.0.0",
-      "asset_name": "NeuroFiles_Sentinel_v8.0.0_win64.zip",
-      "download_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v8.0.0/NeuroFiles_Sentinel_v8.0.0_win64.zip",
-      "sha256": "a15f66973e3904df694ad94e715149f7a7ad645d1858ee602f38b36ffa6398db",
-      "size_bytes": 488243,
-      "required": false,
-      "package_layout": "files",
-      "description": "Pacote opcional do motor nativo da Sentinela."
-    },
-    "engine": {
-      "kind": "engine",
-      "version": "8.0.0",
-      "asset_name": "NeuroFiles_Engine_v8.0.0_win64.zip",
-      "download_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v8.0.0/NeuroFiles_Engine_v8.0.0_win64.zip",
-      "sha256": "d74713a64f67f60e8b10253e53716e5e7bba55574cae035f2f4591c21f034d80",
-      "size_bytes": 389377,
-      "required": false,
-      "package_layout": "files",
-      "description": "Pacote opcional do threat engine nativo."
-    },
-    "helper": {
-      "kind": "helper",
-      "version": "8.0.0",
-      "asset_name": "NeuroFiles_Helper_v8.0.0_win64.zip",
-      "download_url": "https://github.com/Wolffox1982/Neuro-Files-Updates/releases/download/v8.0.0/NeuroFiles_Helper_v8.0.0_win64.zip",
-      "sha256": "76035b42eb866800f5dd023bced80834c3179ad08a55d18b25f4ed4d405170e1",
-      "size_bytes": 16548364,
-      "required": false,
-      "package_layout": "files",
-      "description": "Pacote opcional do helper elevado da Sentinela."
+    "manifest_signature": {
+        "schema": 1,
+        "algorithm": "RSA-PSS-SHA256",
+        "key": "update_public.pem",
+        "signature": "k9xkXZMFIPd9aI3-fLOpEdFD2n6Lf7kPcrDuRHBt8tDrAXw0x1QmwPNjMyNdmhC_C0Etqz7X9Hpjk2BtGUK72Xxd1XkBf-OftUrZvOW2MHBcKpxmCNjHuZbvAo23kYctTp7cNytTTIGje1ehW0RDxnyxRV4TKLv3y7BsPF4ia7jKhhYfP3C6l4crwA5K-6qLRv8iUWCgOMpSk-lC4z4HzpEEQbiBBzQnUFn6CLbvp8jMUdxOgfzPyrjV5HyfqyyVHv5VN2MHOaO2IijNdLSNjZBFfECGWzIYr3YXYZBXf4zqTzNoSdw1-TbAlToICaoTvKJi2cPpaxPokVWpGyndU-lO1PZMJvygXeokFEtcWfkHrNqsiLhWFwNpTVnleVGni1afcfuWZNGgMgaIiaZ-eMauxm0ZeJ98l0cZEfMpOXTZJWKdsI2UZuVRyCN0A7lgnTBk2yX4duhIvIyDqhqspVH5KpEBwaEkiLlDbegb7FkpvjV7E4tuQ-2DzJHreJoO"
     }
-  },
-  "manifest_signature": {
-    "schema": 1,
-    "algorithm": "RSA-PSS-SHA256",
-    "key": "update_public.pem",
-    "signature": "S9onbyxBoml95N4BuMj4I2z50UBKZNeI96dkSVXbGXiKNlpZUbpE9Fk2k5t3U5tTf7fwkxxPMUJpJxfwX2t-aFmXTJvhvgoA42yFN49ODCjlp9fNSQvEXodC908k1zmmyDFEvz-MvKybT4JRCcLSbhhIYtYnLRP9VH2uaMtXU26NmDfqw6NvVhMbN_nB8nxr2PzoW1JacSGtMsuw9qRXFzVqj8-WdBTzftym4atIdaQZJtFzlXcRxvjzwmo9Aijn6Qvpx0LQzhSFtewUGLGti8Hqh2QGNQ1qVe4YtvVxqVcKhTywbEeQX1Cf8hc2yas_UR72MV2uoeHuq9o0i5nfWI0WMKa3xGmw2EH56EhmFzTGJ_j36Uv76HDEdoGydHP1_hoKuMYyBjbs2BndFqVximz4g4KNutKvHFdX8qDyy_GIr_4qaeVSuhQwnu6gImdyT9Ap6Napeh2MTwfvbKFkxWJ7yAT1B-IXeX5cgG9Jvbc7t-ypVrnTkBl6hgxK0A2s"
-  }
 }
